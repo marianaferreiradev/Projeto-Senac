@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+
+
+
+
+#corpo_pag1 {
+   background-color: #021452;
+
+}
+header {
+    padding-top: 40px;
+}
+.caixamenu {
+    position: relative;
+    width: 1130px; /*largura*/
+    margin: 0 auto;
+}
+nav {
+    position: absolute;
+    top: 80px;
+    right: 0;
+}
+nav li {
+    display: inline;
+    margin: 0 0 0 60px;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-family: roboto;
+    font-size: 25px;
+}
+h1 img {
+    width: 250px;
+    margin: 0 0 0 50px;
+    padding-top: 16px;
+}
+.botaoentrar {
+    margin: 0 50px 0px 70px;
+    padding: 10px;
+    background-color: #901D71;
+    border-radius: 10px;
+    border: none;
+    font-weight: 700;
+    font-size: 20px;
+    color: #ffffff;
+    cursor: pointer;
+}
+.hrmenu {
+    width: 1130px;
+    height: 10px;
+    background-color: #901D71;
+    border: none;
+    margin-top: 40px;
+    border-radius: 5px;
+    align-items: center;
+}
+/*footer*/
+footer {
+
+    background-color: #008AAF;
+}
+#rodape {
+    width: 1130px;
+    display: flex;
+    margin: 0 auto;
+    position: relative;
+    
+}
+.logo_ponto img {
+    width: 30px;
+    padding: 20px;
+}
+.info1 {
+    padding: 20px;
+    vertical-align: top;
+    font-family: roboto;
+    color: #ffffff;
+    line-height: 1.40;
+    margin-top: 26px;
+}
+.info2 {
+    font-family: roboto;
+    font-weight: 700;
+    color: #ffffff;
+}
+.redes_sociais {
+    position: absolute;
+    top: 40px;
+    right: 0;
+    
+}
+.redes_sociais ul {
+    margin-right: 40px;
+}
+.redes_sociais li {
+    display: inline;
+    padding: 10px;
+}
+.redes_sociais img {
+    width: 60px;
+    
+}
+
+@media screen and (max-width:767px) {
+    .caixamenu, .menupagina_1 {
+        margin: auto;
+
+    }
+    h1 img {
+        width: 80%;
+        margin: 0%;
+        margin-left: 80px;
+    }
+    h1 {
+        text-align: center;
+    }
+    nav {
+        position: static;
+        margin-left: 80px;
+    }
+    nav a {
+        font-size: 38px;
+    }
+    nav ul {
+        padding: 60px;
+        margin-left: 60px;
+    }
+    .hrmenu {
+        margin-left: 40px;
+    }
+    
+    footer {
+        width: 1200px;
+        margin-top: 260%;
+        
+    }
+    .logo_ponto img {
+        width: 50px;
+        margin-top: 30px;
+    }
+    .info1 {
+        font-size: 38px;
+    }
+    #rodape {
+        margin-left: 40px;
+        
+    }
+}

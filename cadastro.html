@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="css/x.css">
+    <link rel="stylesheet" href="css/cadastro.css">
+    <link rel="icon" href="/imagens/logo_ponto.png">
+</head>
+
+<body id="corpo_pag1">
+
+        <header>
+            <div class="caixamenu">
+                <h1><a href="index.html"><img src="imagens/logo_semcor.png" alt="imagem de logo do site com letras brancas e ponto de interrogação em branco e rosa"></a></h1>
+                <nav>
+                    <ul>
+                        <li><a href="sobre.html">Sobre</a></li>
+                        <li><a href="cursos.html">Cursos</a></li>
+                        <li><a href="educadores.html">Educadores</a></li>
+                        <a href="login.html"> <button class="botaoentrar">Entrar</button></a>
+                    </ul>
+                </nav>
+            </div>
+
+            <hr class="hrmenu">
+        </header>
+
+        <fieldset class="container_cadastro">
+            
+           
+            <ul class="caixa_1">
+                
+                <li>
+                    <form name="cadastro" action="#" method="post"></form>
+                    <h1 class="cadastro">Cadastre-se</h1>
+                    
+                    <legend class="paragrafo_info">Informações Pessoais</legend>
+                    
+                    <input type="text" id="nome" name="nome" required placeholder="Nome" class="input_cadastro"> 
+                    <input type="text" id="nome" name="nome"
+                        required placeholder="Sobrenome" class="input_cadastro">
+                </li>
+
+                <li>
+                    <input type="text" id="nome" name="nome" required placeholder="@" class="input_email">
+                    <input type="text" id="nome" name="nome" required placeholder="Nome de usuário" class="input_usuario"> <br>
+                    <input type="email" id="email" name="email" required placeholder="E-mail" class="input_email2"> 
+                </li>
+
+                <li>
+                    <input type="password" id="senha" name="senha" required placeholder="Senha" class="input_senha">
+                </li>
+
+                <li>
+                    <input type="text" id="CPF" name="CPF" required placeholder="CPF" class="input_cadastro">
+                    <input type="text" id="RG" name="RG" required placeholder="RG" class="input_cadastro">
+                </li>
+
+                <li>
+                    <input type="text" id="país" name="country" required placeholder="País" class="input_localidade">
+                    <input type="text" id="estado" name="estado" required placeholder="Estado" class="input_localidade">
+                    <input type="text" id="cidade" name="cidade" required placeholder="Cidade" class="input_localidade">
+                </li>
+
+                <li>
+                    <div class="sou_estudante">
+                        <label for="text">Sou estudante</label> <br>
+                    </div>
+                    <input type="radio" id="pre1" name="preferencias" value="Sim" class="input_pref">
+                    <label for="text">Sim</label>
+                    <input type="radio" id="pre2" name="preferencias" value="Não" class="input_pref">
+                    <label for="text">Não</label>
+                </li>
+
+                <li>
+                  <input type="text" id="nome" name="nome" required placeholder="Nome da Instituição" class="input_instituicao">
+                </li>
+
+                <li>
+                    <input type="text" id="curso" name="curso" required placeholder="Curso" class="input_cadastro">
+                    <input type="text" id="instituicao" name="instituicao" required placeholder="N° da matrícula" class="input_cadastro">
+                </li>                
+                <img src="imagens/check_info.png" alt="" class="form_1">
+
+            </form>
+
+            </ul>
+        
+            <!--CAIXA 2 -->
+
+            <ul class="caixa_2">
+                
+                <li>
+                    <form name="cadastro2" action="#" method="post">
+                    <h1 class="pagamento">Pagamento</h1>
+                    
+                    <legend class="dados_cartao">Dados do Cartão</legend>
+
+                    <div class="input_cartao1">
+                    <input type="radio" id="pre1" name="preferencias" value="CartaodeDebito">
+                    <label for="text" class="input_cartao">Cartão de Débito</label> <br>
+                </div>
+
+                <div class="input_cartao1">
+                    <input type="radio" id="pre2" name="preferencias" value="CarteodeCredito" class="input_cartao1">
+                    <label for="text" class="input_cartao">Cartão de Crédito</label><br>
+                </div>
+
+                <div class="input_cartao1">
+                    <input type="radio" id="pre3" name="preferencias" value="BoletoBancario" class="input_cartao1">
+                    <label for="text" class="input_cartao">Cartão de Boleto Bancário</label><br>
+                </div>
+                </li>
+
+                <li>
+                    <input type="text" id="Nomedocartao" name="Nomedocartao" required placeholder="Nome do cartão" class="input_opcoes">
+                    <input type="text" id="Numerodocartao" name="Numerodocartao" required placeholder="Número do cartão" class="input_opcoes">
+                </li>
+
+                <p class="nome_cartao">Nome exibido no cartão</p>
+
+                <li>
+                    <input type="text" id="Datadeexpiracao" name="Datadeexpiracao" required placeholder="Data de expiração" class="input_opcoes">
+                    <input type="text" id="CVV" name="CVV" required placeholder="CVV" class="input_opcoes">
+                </li>
+
+                    <hr>
+                    <input type="submit" value="Enviar" class="form_2">
+                </form>
+            </ul>
+
+        </fieldset>
+
+        <footer>
+
+            <div id="rodape">
+                <div class="logo_ponto">
+                    <img src="imagens/logo_ponto.png" alt="imagem de logo do site com letras brancas e ponto de interrogação em branco e rosa">
+                </div>
+
+                <div class="info1">
+                    <h2>Fale Conosco</h2>
+                    <p>Telefone</p>
+                    <p>Perguntas frequêntes</p>
+                </div>
+
+                <div class="info1">
+                    <h2>Criado por</h2>
+                    <p>Danubia Camargo</p>
+                    <p>Mariana Ferreira</p>
+                </div>
+
+                <div class="redes_sociais">
+                    <ul>
+                        <li><a href="https://www.instagram.com/" target="_blank"><img src="imagens/instagram.png" alt="logo do instagram fundo branco com detalhes em preto tem um formato quadrado com um circulo em preto no meio"></a></li>
+                        <li><a href="https://www.facebook.com/" target="_blank"><img src="imagens/facebook.png" alt="logo do facebook, formato redondo com fundo branco e um f no meio do circulo"></a></li>
+                        <li><a href="https://www.gmail.com" target="_blank"><img src="imagens/email.png" alt="logo do email, circulo e dentro tem formato de uma carta"></a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </footer>
+
+    </body>
+
+</html>

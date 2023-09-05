@@ -1,0 +1,269 @@
+/*CADASTRO*/
+
+/*CADASTRO 1*/
+
+.container_cadastro{
+    display: flex;
+    justify-content: center;
+    margin: 100px 0;
+}
+
+.caixa_1{
+    background-color: #ffffff;
+    padding: 40px 30px 40px 30px;
+    border: 4px solid #E5E2E2;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-bottom: 100px;
+}
+
+.cadastro{
+    border-bottom: 4px solid #E5E2E2;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-family: roboto;
+    font-weight: 700;
+    width: 424px;
+}
+
+.paragrafo_info{
+    padding: 10px 0 10px 0;
+    font-size: 18px;
+    font-family: roboto;
+    font-weight: 700;
+}
+
+
+.caixa_1 li{
+    font-size: 16px;
+    font-family: roboto;
+    font-weight: 700;
+}
+
+.input_cadastro{
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px 0;
+    border: 2px solid #ADADAD;
+    background-color: #F2F2F2;
+    width: 200px;
+}
+
+.input_email{
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px 0;
+    border: 2px solid #ADADAD;
+    background-color: #F2F2F2;
+    width: 18px;
+}
+
+.input_usuario{
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px 0;
+    border: 2px solid #ADADAD;
+    background-color: #F2F2F2;
+    width: 380px;
+}
+
+.input_senha{
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px 0;
+    border: 2px solid #ADADAD;
+    background-color: #F2F2F2;
+    width: 414px;
+
+}
+
+.input_email2{
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px 0;
+    border: 2px solid #ADADAD;
+    background-color: #F2F2F2;
+    width: 416px;
+}
+
+.input_localidade{
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px 0;
+    border: 2px solid #ADADAD;
+    background-color: #F2F2F2;
+    width: 128px;
+}
+
+.sou_estudante{
+    padding: 10px 0px;
+}
+
+.input_pref{
+    accent-color: #BA087B;
+}
+
+.input_instituicao{
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px 0;
+    border: 2px solid #ADADAD;
+    background-color: #F2F2F2;
+    width: 416px;
+}
+
+.form_1{
+    width: 40px;
+    opacity: 0.3;
+    margin: 20px 0px 0 200px;
+}
+
+
+.form_1:hover{
+    opacity: 1;
+}
+.form_2{
+    width: 80px;
+    background-color: #901D71;
+    color: #ffffff;
+    font-family: roboto;
+    font-weight: 700;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px ;
+    margin-top: 10px;
+    margin-left: 160px;
+}
+
+.form_2:hover{
+    font-size: 18px;
+}
+
+
+/*CADASTRO 2*/
+.caixa_2{
+    background-color: #ffffff;
+    padding: 40px 30px 30px 30px;
+    border: 4px solid #E5E2E2;
+    width: 400px;
+    height: 350px;
+    border-radius: 10px;
+    margin: 0 50px 0 50px;
+}
+
+.pagamento{
+    border-bottom: 4px solid #E5E2E2;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-family: roboto;
+    font-weight: 700;
+    width: 390px;
+}
+
+.dados_cartao{
+    padding: 10px 0 10px 0;
+    font-size: 18px;
+    font-family: roboto;
+    font-weight: 700;
+}
+
+.input_cartao{
+    font-family: roboto;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.input_cartao1{
+    padding: 5px 0 5px 0;
+}
+
+.input_cartao1{
+    accent-color: #BA087B;
+}
+
+.input_opcoes{
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px 0;
+    border: 2px solid #ADADAD;
+    background-color: #F2F2F2;
+    width: 180px;
+}
+
+.nome_cartao{
+    padding: 5px;
+    font-size: 12px;
+    font-family: roboto;
+}
+
+hr{
+    background-color:  #E5E2E2;
+    height: 3px;
+    border: none;
+}
+
+.botao_entrarcad{
+    padding: 10px;
+    background-color: #901D71;
+    border-radius: 10px;
+    border: none;
+    font-weight: 700;
+    font-size: 20px;
+    color: #ffffff;
+    margin: 20px 0 50px 160px;
+}
+
+.botao_entrarcad:hover{
+    font-size: 22px;
+} 
+
+@media screen and (max-width:767px){
+    .container_cadastro{
+        display: block;
+        width: 900px;
+        margin-left: 300px;
+    }
+
+    .cadastro{
+        border: none;
+    }
+    .caixa_1{
+        width: 50%;
+        margin-bottom: 50px;
+        margin-left: 5px;
+    }
+    .input_cadastro{
+        width: 100%;
+    }
+    .input_email{
+        width: 5%;
+    }
+    .input_usuario{
+        width: 83%;
+    }
+    .input_email2{
+        width: 100%;
+    }
+    .input_senha{
+        width: 100%;
+    }
+    .input_instituicao{
+        width: 100%;
+    }
+    .form_1{
+        margin-left: 40%;
+    }
+    .caixa_2{
+        width: 50%;
+        height: 200%;
+       margin: 0;
+    }
+    .pagamento{
+        border: none;
+    }
+    .form_2{
+        margin-left: 36%;
+    }
+
+}
